@@ -1,7 +1,8 @@
 repo_name: waleed-durrani/keycatd
 report_id: ddc1f8102654d9a0ed244a891b53fce5
+version: 0.1
 repo_type: Public
-timestamp: '2023-11-14T06:58:27+00:00'
+timestamp: '2024-01-05T08:44:55+00:00'
 requested_by: acasajus
 provider: github
 branch: master
@@ -17,6 +18,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/1005/O6AczwfV_400x400.png
+  detection_source_url: https://github.com/waleed-durrani/keycatd
   detection_source: Repo Metadata
 - name: SQL
   description: It is a domain-specific language used in programming
@@ -26,7 +28,8 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/2271/default_068d33483bba6b81ee13fbd4dc7aab9780896a54.png
-  detection_source: data/migrations/postgresql/20180921_add_ip_to_session.sql
+  detection_source_url: https://github.com/waleed-durrani/keycatd/blob/master/data/migrations/postgresql/20180101_initial.sql
+  detection_source: data/migrations/postgresql/20180101_initial.sql
   last_updated_by: Adria Casajus
   last_updated_on: 2018-08-10 17:59:36.000000000 Z
 - name: ScratchDB
@@ -37,6 +40,7 @@ tools:
   category: Data Stores
   sub_category: Big Data Tools
   image_url: https://img.stackshare.io/service/104997/default_64f16b2ca9869cd997fc48770dfb2fbf268a56d1.png
+  detection_source_url: https://github.com/waleed-durrani/keycatd/blob/master/Dockerfile
   detection_source: Dockerfile
   last_updated_by: Adria Casajus
   last_updated_on: 2018-09-17 17:33:08.000000000 Z
@@ -49,6 +53,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Virtual Machine Platforms & Containers
   image_url: https://img.stackshare.io/service/586/n4u37v9t_400x400.png
+  detection_source_url: https://github.com/waleed-durrani/keycatd
   detection_source: Repo Metadata
 - name: Git
   description: Fast, scalable, distributed revision control system
@@ -58,6 +63,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Version Control System
   image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/waleed-durrani/keycatd
   detection_source: Repo Metadata
 - name: Shell
   description: A shell is a text-based terminal, used for manipulating programs and
@@ -68,4 +74,5 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png
+  detection_source_url: https://github.com/waleed-durrani/keycatd
   detection_source: Repo Metadata
